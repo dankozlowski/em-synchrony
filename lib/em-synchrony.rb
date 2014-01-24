@@ -112,7 +112,7 @@ module EventMachine
     #
     def self.next_tick(&blk)
       puts "EM next tick"
-      EM.next_tick { Fiber.new { begin; blk.call; rescue Exception => ex; puts "SYNCHRONY ERROR: #{ex.inspect}"; end }.resume }
+      EM.next_tick { Fiber.new { begin; blk.call; rescue Exception => ex; puts "SYNCHRONY ERROR: #{ex.inspect}\n #{ex.backtrace.join("\n")}"; end }.resume }
     end
     
     # Fiber-aware EM.defer 

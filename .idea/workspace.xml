@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a4a8284-a570-4f96-99fc-077045885f49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/em-synchrony.rb" afterPath="$PROJECT_DIR$/lib/em-synchrony.rb" />
     </list>
     <ignored path="em-synchrony.iws" />
@@ -39,7 +37,7 @@
       <file leaf-file-name="em-synchrony.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/em-synchrony.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="97" selection-start="3317" selection-end="3317" vertical-scroll-proportion="0.65478843" vertical-offset="828" max-vertical-offset="2190">
+            <state line="91" column="56" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.3986637" vertical-offset="828" max-vertical-offset="2190">
               <folding />
             </state>
           </provider>
@@ -260,7 +258,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/em-synchrony.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="97" selection-start="3317" selection-end="3317" vertical-scroll-proportion="0.65478843" vertical-offset="828" max-vertical-offset="2190">
+        <state line="91" column="56" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.3986637" vertical-offset="828" max-vertical-offset="2190">
           <folding />
         </state>
       </provider>
