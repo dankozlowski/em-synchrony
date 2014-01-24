@@ -111,7 +111,8 @@ module EventMachine
     # Fiber-aware EM.next_tick convenience function
     #
     def self.next_tick(&blk)
-      EM.next_tick { Fiber.new { blk.call }.resume }
+      puts "EM next tick"
+      EM.next_tick { Fiber.new { begin; blk.call; rescue Exception => ex; puts "SYNCHRONY ERROR: #{ex.inspect}"; end }.resume }
     end
     
     # Fiber-aware EM.defer 
